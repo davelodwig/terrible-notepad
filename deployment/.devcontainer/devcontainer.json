@@ -1,0 +1,9 @@
+{
+  "name": "Terrible Deployment Devcontainer",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": "."
+  },
+  "workspaceFolder": "/workspace",
+  "extensions": ["hashicorp.terraform", "ms-azure-devops.azure-pipelines"]
+}
